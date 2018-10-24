@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	<CodeAnalysisRuleSet>StyleCop.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="DAO\" />
+	</ItemGroup>
+
+</Project>
